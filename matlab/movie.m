@@ -1,5 +1,8 @@
 figure
 
+box on;
+grid on;
+
 fps=1;
 mov = struct('cdata',[],'colormap',[]);
 set(gca,'nextplot','replacechildren');
