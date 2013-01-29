@@ -115,7 +115,7 @@ int main(int argc, char *argv[]) {
 
 	printf("Running CPF J=%d motes; seed %d.\n", NUM_SENSORS, seed);
 
-	sseed(seed);
+	srand(seed);
 
 	gen_true_trajectory();		// generate a trajectory
 	gen_observations();			// generate observations

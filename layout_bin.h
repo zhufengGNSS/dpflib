@@ -18,7 +18,7 @@
 #define X 0
 #define Y 1
 #define NUM_SENSORS 10
-#define NUM_SIMULATIONS 19
+#define NUM_SIMULATIONS 10000
 
 // COORDINATES
 #define WIDTH 0.24
